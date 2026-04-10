@@ -1,5 +1,7 @@
 https://github.com/biuro-ship-it/pluszek.pl.git
 strona na github
+host - vercel  
+
 połączenie do strony na mydevil
 robiona w antygravity
 folder lokal
@@ -11,5 +13,6 @@ git init
 git add .
 git commit -m "Migracja z Antygravity"
 git branch -M main
-git remote add origin https://github.com/biuro-ship-it/pluszek.pl.git
+git remote add origin [LINK_DO_TWOJEGO_REPOZYTORIUM]
 git push -u origin main
+
