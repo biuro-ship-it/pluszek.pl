@@ -121,6 +121,14 @@ a {
     color: var(--primary-color);
 }
 
+.nav-logo {
+    max-height: 55px; /* Zwiększone o 10% z 50px */
+    mix-blend-mode: multiply;
+    height: auto;
+    width: auto;
+    transition: var(--transition);
+}
+
 .nav-links {
     display: flex;
     list-style: none;
