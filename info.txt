@@ -11,5 +11,5 @@ git init
 git add .
 git commit -m "Migracja z Antygravity"
 git branch -M main
-git remote add origin [LINK_DO_TWOJEGO_REPOZYTORIUM]
+git remote add origin https://github.com/biuro-ship-it/pluszek.pl.git
 git push -u origin main
