@@ -1,0 +1,90 @@
+Polityka prywatności
+Polityka dotycząca wykorzystania cookies
+
+Niniejsza Polityka określa zasady tworzenia, przechowywania i dostępu do informacji na urządzeniach Użytkownika za pomocą plików Cookies w celu zrealizowania drogą elektroniczną usług żądanych przez Użytkownika.
+
+I. POSTANOWIENIA OGÓLNE
+Administrator w celu świadczenia usług drogą elektroniczną tworzy i przechowuje tymczasowe pliki i uzyskuje dostęp do wybranych informacji w urządzeniach Użytkownika.
+Cookies – oznacza dane binarne, najczęściej niewielkie pliki tekstowe, zapisywane i przechowywane na urządzeniach Użytkownika, które są wykorzystywane w językach programowania do sprawniejszej komunikacji serwisu internetowego i użytkownika.
+Pliki Cookies tworzone na urządzeniach użytkownika mogą pochodzić zarówno z systemu Administratora (t.zw. Cookies własne) jak i też z zewnętrznych programów nadzorujących komunikację w internecie (t.zw. Cookies zewnętrzne np. pochodzące z serwisów Google i innych).
+Użytkownik ma możliwość ograniczenia lub wyłączenia dostępu plików cookies do swojego Urządzenia. W przypadku skorzystania z tej opcji korzystanie z Serwisu będzie możliwe, poza funkcjami, które ze swojej natury wymagają plików cookies.
+II. Cele stosowania cookies
+Technologia Cookies jest dzisiaj „solą” internetu – w dobrym znaczeniu. Bez Cookies wiele stron staje się znacznie uboższe.
+
+Ciasteczka i podobne technologie używane są w witrynach internetowych w celu zapewnienia poprawnej transmisji danych pomiędzy połączonymi komputerami. Mają one bardzo szerokie zastosowanie , pomagają dostosować zawartość strony ustawień w komputerze odbiorcy, zapamiętują preferowany wygląd strony, np. ustawiony rozmiar czcionki, zapewniają wykonanie przez użytkownika kilku etapowych czynności (np. dodania artykułu, dokonania zakupu w sklepie internetowym). Ciasteczka mogą też być wykorzystywane do dopasowania wyświetlanych reklam do zainteresowań odwiedzających witryny. Można powiedzieć, że technologia „ciasteczek” jest niezbędna do prawidłowego wyświetlania stron interaktywnych.
+
+Oprócz ciasteczek wysyłanych ze strony z która się łączymy, pliki cookies mogą być wysyłane także z serwerów stron, do których się odwołują, np. Google, YouTube czy serwisy społecznościowe jak Facebook, Twitter i inne.
+
+Najogólniej możemy podzielić Cookies na dwa typy plików:
+
+cookies sesyjne: są przechowywane na Urządzeniu Użytkownika i pozostają tam do momentu zakończenia sesji danej przeglądarki. Zapisane informacje są wówczas trwale usuwane z pamięci Urządzenia. Mechanizm cookies sesyjnych nie pozwala na pobieranie jakichkolwiek danych osobowych ani żadnych informacji poufnych z Urządzenia Użytkownika;
+
+cookies trwałe: są przechowywane na Urządzeniu Użytkownika i pozostają tam do momentu ich skasowania. Zakończenie sesji danej przeglądarki lub wyłączenie Urządzenia nie powoduje ich usunięcia z Urządzenia Użytkownika. Mechanizm cookies trwałych nie pozwala na pobieranie jakichkolwiek danych osobowych ani żadnych informacji poufnych z Urządzenia Użytkownika.
+
+W normalnej sytuacji stosowane Cookies są bezpieczne dla użytkownika. Przy prawidłowym ich stosowaniu nie jest możliwe przedostanie się do Urządzeń Użytkowników wirusów lub innego niechcianego oprogramowania lub oprogramowania złośliwego. Pliki te pozwalają zidentyfikować oprogramowanie wykorzystywane przez Użytkownika. Cookies zazwyczaj zawierają nazwę domeny z której pochodzą, czas przechowywania ich na Urządzeniu (jest ograniczony) oraz przypisaną wartość (klucz).
+
+Pliki cookies nie gromadzą żadnych danych osobowych, w tym nazwisk i adresów e-mail.
+
+Każdy użytkownik może zmienić ustawienia dotyczące ciasteczek w używanej przez siebie przeglądarce, w tym zupełnie wyłączyć możliwość ich zapisywania. Jeśli użytkownik nie wyłącza możliwości zapisywania ciasteczek pochodzących z różnych witryn, oznacza to w praktyce, ze wyraża zgodę na ich zapisywanie i przechowywanie w komputerze.
+
+Użytkownik może w każdej chwili usunąć pliki Cookies korzystając z dostępnych funkcji w przeglądarce internetowej, której używa.
+
+Sposoby opisujące wyłączenie lub zmianę ustawień dla najpopularniejszych przeglądarek internetowych:
+
+Google Chrome – domyślne ustawienia przeglądarki Google Chrome zezwalają na przechowywanie cookies. Aby zmienić ustawienia należy:
+
+kliknąć w menu „Ustawienia Google Chrome” i wybrać opcję „Ustawienia”;
+
+kliknąć w „Pokaż ustawienia zaawansowane” na dole strony;
+
+wybrać opcję „Ustawienia treści” w opcjach „Prywatność”;
+
+wybrać żądane ustawienia;
+
+aby wprowadzić specjalne ustawienia dla danego serwisu należy kliknąć w „Zarządzaj wyjątkami” i wybrać własne ustawienia dla witryn;
+
+aby zatwierdzić zmiany należy kliknąć w przycisk „Gotowe”.
+
+Microsoft Internet Explorer – Domyślne ustawienia przeglądarki Microsoft Internet Explorer zezwalają na przechowywanie plików cookies, ale blokują pliki, które mogą pochodzić z serwisów niestosujących polityki prywatności. Aby zmienić ustawienia należy:
+
+kliknąć w menu „Narzędzia” i wybrać „Opcje Internetowe”;
+
+wybrać zakładkę „Prywatność”;
+
+za pomocą suwaka określić żądany poziom ustawień (najwyższy blokuje cookies całkowicie, najniższy zezwala na przechowywanie wszystkich cookies).
+
+Mozilla Firefox – domyślne ustawienia przeglądarki Mozilla Firefox zezwalają na przechowywanie plików cookies. Aby zmienić ustawienia należy:
+
+kliknąć w menu „Narzędzia” (w innych wersjach: kliknąć przycisk „Firefox”) i wybrać „Opcje”;
+
+następnie wybrać zakładkę „Prywatność” i zaznaczyć żądane ustawienia;
+
+aby wprowadzić specjalne ustawienia dla danego serwisu należy kliknąć w „Wyjątki” i wybrać własne ustawienia dla witryn;
+
+zatwierdzić zmiany za pomocą przycisku „OK”.
+
+Opera – domyślne ustawienia przeglądarki Opera zezwalają na przechowywanie plików cookies. Aby zmienić ustawienia należy:
+
+kliknąć w „Preferencje”, wybrać opcję „Zaawansowane”, a następnie „Ciasteczka”;
+
+zaznaczyć żądane ustawienia;
+
+aby wprowadzić specjalne ustawienia dla danego serwisu należy wejść na wybraną stronę internetową, kliknąć na niej prawym przyciskiem myszy, wybrać polecenie „Preferencje dla witryn” i przejść do karty „Ciasteczka” a następnie wprowadzić pożądane ustawienia;
+
+zatwierdzić zmiany za pomocą przycisku „OK”.
+
+Safari – domyślne ustawienia przeglądarki Safari zezwalają na przechowywanie plików cookies. Aby zmienić ustawienia należy:
+
+w menu „Safari” wybrać opcję „Preferencje”;
+
+kliknąć ikonę „Prywatność”;
+
+zaznaczyć żądane ustawienia;
+
+aby wprowadzić specjalne ustawienia dla danego serwisu należy kliknąć w „Szczegóły” i wybrać własne ustawienia dla witryn.
+
+Jeżeli zdecydujesz się na odrzucenie wszystkich ciasteczek, nie będzie możliwe korzystanie z niektórych treści treści i usług udostępnianych w naszych witrynach, w szczególności wymagających logowania i później zrealizowania na przykład transakcji zakupu w sklepie internetowym. Wyłączenie ciasteczek nie powoduje natomiast braku możliwości przeglądania stron w większości witryn.
+
+Użytkownik może w każdej chwili usunąć pliki Cookies korzystając z dostępnych funkcji w przeglądarce internetowej, której używa.
+
+Należy zaznaczyć, że technologia Cookies jest wykorzystywana przez hakerów do infekowania komputerów i wprowadzania złośliwego oprogramowania. Technologia Cookies, która ma zapewnić prawidłową komunikację z serwerem strony jest w tym przypadku wykorzystywana niezgodnie ze swoim przeznaczeniem. Ochronę przed takim atakiem jak i też innymi formami prób hakerskich powinien zawsze stanowić przede wszystkim dobry program ochrony antywirusowej.
