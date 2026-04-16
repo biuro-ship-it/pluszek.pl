@@ -213,7 +213,7 @@ a {
     width: 100%;
     max-width: 500px;
     aspect-ratio: 4/5;
-    background: rgba(255,255,255,0.7);
+    background: #ffffff;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@ a {
 .image-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 40px;
 }
 
@@ -347,10 +347,16 @@ a {
 .card-img {
     width: 100%;
     height: 300px;
-    background: #f0f0f0;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .card-content {
