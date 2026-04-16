@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziękujemy za wiadomość! | Pluszek.pl</title>
+    
+    <!-- Google Fonts: Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .thanks-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .success-icon {
+            font-size: 5rem;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-20px);}
+            60% {transform: translateY(-10px);}
+        }
+
+        .thanks-container h1 {
+            font-size: 3rem;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+
+        .thanks-container p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .home-btn {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: var(--transition);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .home-btn:hover {
+            background-color: #8CC4E0;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nawigacja -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.jpg" alt="Pluszek Logo" class="nav-logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Strona Główna</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="thanks-container">
+            <div class="success-icon">✨</div>
+            <h1>Dziękujemy!</h1>
+            <p>Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą najszybciej, jak to możliwe!</p>
+            <a href="index.html" class="home-btn">Wróć na stronę główną</a>
+        </section>
+    </main>
+
+    <!-- Stopka -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Pluszek.pl</div>
+            <p>&copy; 2026 Pluszek.pl - Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
