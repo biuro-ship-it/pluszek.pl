@@ -140,28 +140,28 @@
                     </div>
                 </div>
                 <div class="offer-card">
-                    <div class="card-img"><img src="image/20191213_170916.jpg" alt="Gąbki kąpielowe"></div>
+                    <div class="card-img"><img src="image/kapielowe.png" alt="Gąbki kąpielowe"></div>
                     <div class="card-content">
                         <h3>Gąbki kąpielowe</h3>
                         <p>Delikatne i miękkie gąbki kąpielowe stworzone z myślą o wrażliwej skórze niemowląt. Doskonale sprawdzają się podczas codziennej pielęgnacji – są chłonne, łatwe w użyciu i dostępne w różnych kształtach oraz kolorach.</p>
                     </div>
                 </div>
                 <div class="offer-card">
-                    <div class="card-img"><img src="image/20191213_171339.jpg" alt="Gąbki frotki"></div>
+                    <div class="card-img"><img src="image/frotki.jpg" alt="Gąbki frotki"></div>
                     <div class="card-content">
                         <h3>Gąbki frotki</h3>
                         <p>Miękkie i przyjemne w dotyku gąbki frotté to idealny wybór do codziennej pielęgnacji niemowląt i małych dzieci. Wykonane z delikatnej tkaniny frotte, łagodnie oczyszczają skórę, nie powodując podrażnień. Chłonne, trwałe i łatwe w czyszczeniu.</p>
                     </div>
                 </div>
                 <div class="offer-card">
-                    <div class="card-img"><img src="image/20191213_171912.jpg" alt="Gąbka puzzle"></div>
+                    <div class="card-img"><img src="image/puzle.jpg" alt="Gąbka puzzle"></div>
                     <div class="card-content">
                         <h3>Gąbka puzzle</h3>
                         <p>Kolorowe gąbki w formie puzzli to świetna zabawa i pielęgnacja w jednym! Wykonane z miękkiej, bezpiecznej pianki. Elementy można łączyć, co umila czas kąpieli i wspiera rozwój manualny malucha.</p>
                     </div>
                 </div>
                 <div class="offer-card">
-                    <div class="card-img"><img src="image/20191213_165851.jpg" alt="Gąbki samochodowe"></div>
+                    <div class="card-img"><img src="image/sam.png" alt="Gąbki samochodowe"></div>
                     <div class="card-content">
                         <h3>Gąbki samochodowe</h3>
                         <p>Wytrzymałe i chłonne gąbki do mycia samochodu, idealne do usuwania brudu bez ryzyka zarysowań lakieru. Dzięki odpowiedniej strukturze i rozmiarowi zapewniają wygodne użytkowanie oraz skuteczne czyszczenie. Do użytku profesjonalnego.</p>
@@ -204,7 +204,12 @@
                     <span class="close-btn">&times;</span>
                     <h3>Formularz zamówienia: <span id="selectedPackageName" style="color: var(--secondary-color);"></span></h3>
                     <br>
-                    <form id="promoForm" action="mailto:info@pluszek.pl" method="POST" enctype="text/plain">
+                    <form id="promoForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="TWÓJ_KLUCZ_DOSTĘPU_TUTAJ">
+                        <input type="hidden" name="subject" value="Nowe zamówienie - pakiet Pluszek.pl">
+                        <input type="checkbox" name="botcheck" style="display: none;">
+                        <input type="hidden" name="redirect" value="https://pluszek.pl/dziekujemy.html"> <!-- Opcjonalne przekierowanie -->
+                        
                         <input type="hidden" id="hiddenPackage" name="Wybrany_Pakiet" value="">
                         
                         <div class="form-group">
@@ -229,7 +234,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-secondary">Wyślij Zamówienie</button>
-                        <p class="form-note">Domyślnie używamy standardowego klienta poczty. Twoje zapytanie trafi na: <strong>info@pluszek.pl</strong></p>
+                        <p class="form-note">Twoje zapytanie trafi bezpośrednio na: <strong>info@pluszek.pl</strong></p>
                     </form>
                 </div>
             </div>
@@ -276,7 +281,12 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form action="mailto:info@pluszek.pl" method="POST" enctype="text/plain">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="TWÓJ_KLUCZ_DOSTĘPU_TUTAJ">
+                    <input type="hidden" name="subject" value="Nowa wiadomość - Pluszek.pl">
+                    <input type="checkbox" name="botcheck" style="display: none;">
+                    <input type="hidden" name="redirect" value="https://pluszek.pl/dziekujemy.html"> <!-- Opcjonalne przekierowanie -->
+                    
                     <input type="text" name="Imie" placeholder="Twoje imię" required>
                     <input type="email" name="Email" placeholder="Twój e-mail" required>
                     <textarea name="Wiadomosc" rows="5" placeholder="Treść wiadomości" required></textarea>
