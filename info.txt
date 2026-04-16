@@ -1,6 +1,6 @@
 https://github.com/biuro-ship-it/pluszek.pl.git
 strona na github
-host - vercel  
+host - mydevil 
 
 połączenie do strony na mydevil
 robiona w antygravity
