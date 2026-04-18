@@ -122,7 +122,7 @@ a {
 }
 
 .nav-logo {
-    max-height: 55px; /* Zwiększone o 10% z 50px */
+    max-height: 60.5px; /* Zwiększone o kolejne 10% z 55px */
     mix-blend-mode: multiply;
     height: auto;
     width: auto;
@@ -582,7 +582,7 @@ a {
 #collaboration {
     padding: 150px 0 100px 0;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-dark);
     position: relative;
     text-align: center;
 }
@@ -590,7 +590,7 @@ a {
 #collaboration h2, 
 #collaboration h2 span,
 #collaboration p {
-    color: white;
+    color: var(--text-dark);
 }
 
 .collab-content {
