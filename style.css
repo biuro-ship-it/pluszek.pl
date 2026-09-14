@@ -285,6 +285,17 @@ a {
     margin-top: 40px;
 }
 
+.about-text, .about-image {
+    min-width: 0;
+}
+
+@media screen and (max-width: 560px) {
+    .features {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 .feature {
     background: var(--bg-light);
     padding: 25px;
