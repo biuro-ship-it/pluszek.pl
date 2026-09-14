@@ -504,9 +504,10 @@ a {
 
 .promo-price-row {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 8px;
+    gap: 4px 8px;
 }
 
 .promo-price {
@@ -531,6 +532,13 @@ a {
 .promo-unit {
     padding-bottom: 5px;
     white-space: nowrap;
+}
+
+.promo-unit--mix {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.4;
 }
 
 .btn.kup-btn {
