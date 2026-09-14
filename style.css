@@ -376,67 +376,193 @@ a {
 }
 
 .promo-grid {
-    display: flex;
-    justify-content: center;
-    gap: 2px; /* Small gap like in the screenshot */
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
     margin-top: 40px;
+    text-align: left;
 }
 
 .promo-card {
-    background-size: cover;
-    background-position: center;
-    padding: 60px 40px;
-    width: 32%;
-    min-width: 300px;
-    color: white;
-    text-align: center;
+    min-height: 480px;
+    padding: 22px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 16px;
+    color: white;
+    background-image: linear-gradient(180deg, rgba(38, 40, 58, 0.30) 0%, rgba(38, 40, 58, 0.82) 62%), url('image/wkladkap.webp');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.10);
+    transition: var(--transition);
+}
+
+.promo-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.16);
+}
+
+.promo-card__top {
+    display: flex;
     align-items: center;
-    position: relative;
-    /* Soft blending */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.promo-chip,
+.promo-badge {
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.promo-chip {
+    background: var(--primary-color);
+    color: var(--text-dark);
+}
+
+.promo-card--maxi .promo-chip {
+    background: var(--accent-color);
+}
+
+.promo-card--mix .promo-chip {
+    background: var(--secondary-color);
+}
+
+.promo-badge {
+    background: #E695A5;
+    color: white;
+}
+
+.promo-card__body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
 }
 
 .promo-card h3 {
     color: white;
     font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: 700;
+    line-height: 1.15;
 }
 
 .promo-card p {
-    color: #e0e0e0;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
-.promo-card .price {
-    font-size: 1.2rem;
-    font-weight: bold;
+.promo-qty {
+    font-size: 1.06rem;
+    font-weight: 600;
     color: white;
-    margin-bottom: 25px;
 }
 
-.promo-card .price span {
-    font-size: 0.8rem;
-    font-weight: normal;
+.promo-gift {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #FFD6DF;
+}
+
+.promo-gift svg {
+    flex-shrink: 0;
+}
+
+.promo-meta {
+    font-size: 0.875rem;
+    color: #E6E6EE;
+}
+
+.promo-panel {
+    background: white;
+    border-radius: 16px;
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--text-dark);
+}
+
+.promo-price-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.promo-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-price__label,
+.promo-unit {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+}
+
+.promo-price .price {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--text-dark);
+    white-space: nowrap;
+}
+
+.promo-unit {
+    padding-bottom: 5px;
+    white-space: nowrap;
 }
 
 .btn.kup-btn {
-    background-color: #3b82f6; /* Niebieski przycisk z obrazka */
+    width: 100%;
+    background-color: #E695A5;
     color: white;
-    border-radius: 5px;
-    padding: 12px 30px;
+    border-radius: 50px;
+    padding: 13px 20px;
+    font-family: inherit;
+    font-size: 1.06rem;
     font-weight: 600;
-    box-shadow: none;
+    box-shadow: 0 8px 15px rgba(247, 168, 184, 0.3);
 }
 
 .btn.kup-btn:hover {
-    background-color: #2563eb;
-    transform: none;
+    background-color: #D97C8F;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 968px) {
+    .promo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .promo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .promo-card {
+        min-height: 420px;
+    }
+
+    .promo-card h3 {
+        font-size: 1.75rem;
+    }
+
+    .promo-chip,
+    .promo-badge {
+        padding: 5px 10px;
+        font-size: 0.75rem;
+    }
 }
 
 .order-container, .order-form-container {
