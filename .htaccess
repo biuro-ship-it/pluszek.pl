@@ -1,5 +1,0 @@
-RewriteEngine On
-
-# Przekierowanie http -> https (MyDevil: nginx przed Apache przekazuje protokół w X-Forwarded-Proto)
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
